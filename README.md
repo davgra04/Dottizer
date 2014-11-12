@@ -29,13 +29,12 @@ The generated dot image shows in the main view of the application, and on the le
 
 `Save Output` - Saves larger version of generated image to out.png in the current working directory.
 
-### Requirements
-
-The tool has been tested on Windows with Python 3.4.1 and the Python Image Library available at the link below.
+### Required Python Libraries
 
 **Python Image Library** (available here for Windows: [http://www.lfd.uci.edu/~gohlke/pythonlibs/](http://www.lfd.uci.edu/~gohlke/pythonlibs/))
 
 **Tkinter**
 
+Note: The tool has been tested on Windows with Python 3.4.1 and the Python Image Library available at the link above.
 
 
