@@ -5,7 +5,7 @@ This tool is intended to make construction of LED dot wall art, [inspired by ewo
 
 ### Usage
 
-Make sure to have a black and white input image saved in your current directory as `input.png`. Running the `Dottizer.py` script will bring up the following GUI:
+Save a black and white image named `input.png` in your current directory. Then run the `Dottizer.py` script, and it will bring up the following GUI:
 
 ![Dottizer GUI](https://raw.githubusercontent.com/davgra04/Dottizer/master/UI_screenshot.png)
 
