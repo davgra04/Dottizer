@@ -38,7 +38,8 @@ class DrillHole:
         self.flag_draw_sizes = flag_draw_sizes
 
 
-        self.font = ImageFont.truetype("cour.ttf", font_size)
+        self.font = ImageFont.truetype("RobotoMono-Regular.ttf", font_size)
+        # self.font = ImageFont.truetype("cour.ttf", font_size)
         self.font_color = font_color
     # --- function end ---
 
@@ -231,7 +232,8 @@ class DotPanel:
     # Prints dottizing info to console
     def printInfo(self, draw):
 
-        tempfont = ImageFont.truetype("cour.ttf", self.font_size*2)
+        tempfont = ImageFont.truetype("RobotoMono-Regular.ttf", self.font_size*2)
+        # tempfont = ImageFont.truetype("cour.ttf", self.font_size*2)
         tempVertSpace = self.font_size*2
         
         out_text = 'Dimensions:  ' + str(self.dots_wide*self.max_hole_size + (self.dots_wide-1)*self.dist_between_holes + 2*self.border_x) + '"x' + str(self.dots_tall*self.max_hole_size + (self.dots_tall-1)*self.dist_between_holes + 2*self.border_y) + '"    (' + str(self.dots_wide) + ' dots x ' + str(self.dots_tall) + ' dots)'

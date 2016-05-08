@@ -2,8 +2,17 @@ from __future__ import print_function
 from __future__ import division
 from fractions import Fraction
 
-from tkinter import *
-import tkinter as tk
+# from tkinter import *
+# import tkinter as tk
+
+try:
+    # for Python2
+    from Tkinter import *   ## notice capitalized T in Tkinter 
+    import Tkinter as tk
+except ImportError:
+    # for Python3
+    from tkinter import *   ## notice here too
+    import Tkinter as tk
 
 from PIL import Image, ImageDraw, ImageFont, ImageTk
 

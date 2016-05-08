@@ -93,7 +93,9 @@ src_view_x = 300
 src_view_y = 225
 
 # Size of output image view
-out_view_x = 1200
-out_view_y = 900
+out_view_x = 1200/2
+out_view_y = 900/2
+# out_view_x = 1200
+# out_view_y = 900
 
 
